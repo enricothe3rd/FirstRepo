@@ -1,0 +1,45 @@
+
+
+git config --list = list
+rm -rf = delete foloder
+git init = initialized
+git status = check the status
+
+touch master.txt and notepad master.txt = to open a notepad
+git add . = add new 
+git rm = remove
+git commit -m = typing commit
+git log = check the log 
+
+git config --user.name " Enrico L , Pedrajeta"
+git config --user.email pedrajeta21@gmail.com
+pwd - check the list folder
+cd = create folder
+
+touch master.txt
+notepad master.txt
+git status
+git add .
+git status
+git commit -m " This is my first commit"
+git log
+git push -u origin master
+
+
+git remote add origin https://github.com/enricothe3rd/FirstRepo.git
+
+git remote -v
+git push -u origin master
+
+
+ssh-keygen -t rsa -C pedrajetajr21@gmail.com
+
+git clone
+git@github.com:enricothe3rd/SecondRepo.git
+ls -ltr
+cd SecondRepo
+ls -ltr
+
+notepad second.txt
+
+git push
