@@ -1,0 +1,72 @@
+--Reseting or deleting commit----
+git log --pretty=oneline
+git reset --soft  and copy hash name
+git log --pretty=oneline
+git status
+
+notepad.txt
+ git add . 
+git commit -m "re weirting"
+git log --pretty=oneline
+
+
+--Reseting or deleting commit in a better way----
+git revert and hash number
+
+
+mkdir Org_Details
+cd Org_Details
+git init
+notepad name.txt
+notepad employees.txt
+git status
+git add .
+git commit -m "First Commit"
+git log
+
+----making another branch---
+git branch Enrico_Branch
+git branch -v
+----switching to other branch----
+git checkout Enrico_Branch
+ls
+notepad address.txt
+git add .
+git commit -m "Enrico branch Commit"
+
+---switching to other brance---
+git checkout master
+
+---creating another repository--
+--linking repository--
+git remote add origin git@github.com:enricothe3rd/Enrico_Branch.git
+
+first push master branch
+by that switch to master branch
+
+git chechout master
+git push -u origin master
+
+--how to push new branch---
+name of the branch you want to push
+git push -u origin Enrico_Branch
+
+---merging branch---
+git chechout Enrico_Branch
+git checkout master
+git merge Enrico_Branch
+git log --pretty=oneline
+git push origin master 
+the master branch and enrico branch content will be the same
+
+---deleting branch in your desktop----
+but you still see it in the server 
+git branch -D Enrico_Branch
+git branch -v
+
+----deleting branch into your serve----
+git push orgin --delete Enrico Branch
+
+make sure you merge if you want to delete desktop and server branch
+
+
